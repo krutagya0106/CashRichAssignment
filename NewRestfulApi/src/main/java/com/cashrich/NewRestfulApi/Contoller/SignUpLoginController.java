@@ -15,7 +15,7 @@ import com.cashrich.NewRestfulApi.models.User;
 
 @RestController
 @RequestMapping("/cashrich")
-public class RestApiController {
+public class SignUpLoginController {
 	
 	@Autowired
 	private UserService service;
